@@ -8,8 +8,9 @@ Console.Write("input N = ");
 int N = int.Parse(Console.ReadLine());
 int count = 2;
 
-while (N <= count) 
+while (N >= count) 
 {
     Console.Write(count + ", ");
     count += 2;
 }
+Console.WriteLine("");
